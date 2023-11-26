@@ -44,6 +44,7 @@ def get_overseas_master_dataframe(base_dir,val):
     
     return df
 
+# TODO: study
 cmd = input("1:전부 다운로드, 2:1개의 시장을 다운로드 \n")
 
 if cmd =='1': # 1. 해외종목코드전체 코드를 다운로드
